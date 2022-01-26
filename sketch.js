@@ -1,8 +1,8 @@
 const canvas = document.createElement('canvas')
-let width = window.innerWidth
-let height = window.innerHeight
-canvas.setAttribute('width', `${width}`)
-canvas.setAttribute('height', `${height}`)
+// let width = window.innerWidth
+// let height = window.innerHeight
+canvas.setAttribute('width', '1350')
+canvas.setAttribute('height', '660')
 document.body.prepend(canvas)
 const ctx = canvas.getContext('2d')
 const game = { req: '' }
